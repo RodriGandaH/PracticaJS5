@@ -88,8 +88,6 @@ function listarColores() {
 
   let items = '';
 
-
-
   for (let i = 0; i < colores.length; i++) {
     items += `  <li class="mb-2 d-flex            justify-content-between align-items-center">
             <span>${colores[i]}</span>
